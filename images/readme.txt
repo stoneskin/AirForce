@@ -1,0 +1,1 @@
+use the https://www.remove.bg/ to remove background of images
