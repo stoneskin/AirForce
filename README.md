@@ -3,6 +3,7 @@
  This is a simple python game write with pyGame. 
  In part 1, it implements the basic game loop and basic game object.
  In part 2, I rewrote the code with Object-Oriented Programming (OOP) style.
+ In part 3, I added my prompt and results of usingCursor AI to build the AirForce game.
 
 ## Part 1: Build Game with basic game loop and basic game object
 
@@ -525,4 +526,6 @@ screen.blit(background,(0,0))
   - [source code with step7 OOP](/oopStep7.py) 
 
 
+# Part3: Using Cursor AI build the AirForce game
 
+[Using Cursor AI build the AirForce game for me](./CursorExample/readme.md)

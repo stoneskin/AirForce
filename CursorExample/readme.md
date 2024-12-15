@@ -1,5 +1,39 @@
 # Example of Cursor AI build a Shotting game use my images
 
+Below is the example of use [Cursor AI](https://www.cursor.com/) to build a shotting game use my images.
+
+In my project folder, I add a `.cursorrules` file to describe the coding style of Cursor AI.
+
+```
+You are an expert of Python programming.
+
+Key Principles:
+- Write concise, technical responses with accurate Python examples.
+- Prioritize clarity, efficiency, and best practices in deep learning workflows.
+- Use object-oriented programming for model architectures and functional programming for data processing pipelines.
+- Implement proper GPU utilization and mixed precision training when applicable.
+- Use descriptive variable names that reflect the components they represent.
+- Follow PEP 8 style guidelines for Python code.
+
+
+Key Conventions:
+1. Begin projects with clear problem definition and dataset analysis.
+2. Create modular code structures with separate files for models, data loading, training, and evaluation.
+3. Use configuration files (e.g., YAML) for hyperparameters and model settings.
+4. Implement proper experiment tracking and model checkpointing.
+5. Use version control (e.g., git) for tracking changes in code and configurations.
+
+
+Make sure to:
+- Use descriptive variable names.
+- Include comments explaining each step of the process.
+- Format the output to display the result clearly.
+- Use proper indentation and follow Python coding conventions.
+- Keep the code simple and easy to understand for beginners
+
+```
+
+
 ## 1. Round 1
 
 **[Me]please use image in the folder to create a python shotting game**
@@ -406,6 +440,15 @@ enemy_img = pygame.transform.scale(enemy_img, (40, 40))    # Adjust size as need
 - High score system
 - Menu screen
 
+![mygame2](./screenshot/mygame2.png)
+
+<div align="center">
+  <video width="320" height="240" controls>
+    <source src="./screenshot/mygame2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
 ## 3. Round 3
 
 **[Me]** change the  game  to horizontal, the player in the left, and enmy come from right end,  also add pew.wav as sound of shooting and expl.wav as sound of explosion
@@ -438,6 +481,15 @@ Make sure you have the sound files ('pew.wav' and 'expl.wav') in the same direct
 - Game over screen
 - Background image
 
+![mygame3](./screenshot/mygame3.png)
+
+<div align="center">
+  <video width="320" height="240" controls>
+    <source src="./screenshot/mygame3.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
 ## 4. Round 4
 
 **[Me]add the animation of explotion, the explotion images are Explosion00.png to Explosion08.png.  also remove the rotation of current images for player,bullet and enemy**
@@ -464,3 +516,25 @@ You can adjust the explosion animation speed by changing the frame_rate value in
 - Score tracking
 - Game over screen
 - Background image
+
+![mygame4](./screenshot/mygame4.png)
+
+<div align="center">
+  <video width="320" height="240" controls>
+    <source src="./screenshot/mygame4.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+
+## 5 Conclusion
+
+I had used 4 rounds to build a shooting game use my material.
+
+Cursor Can understand my command even I have typos in the prompt, which is super cool.
+
+Cursor AI is a powerful tool for building Python projects. It can help you create complex applications quickly and efficiently. However, it is important to note that Cursor AI is not a substitute for human coding. It is a tool that can help you write code faster, but you still need to understand the code and the underlying concepts.
+
+Cursor AI is a tool that can help you write code faster, but you still need to understand the code and the underlying concepts.
+
+![usage](./screenshot/Cursor_Usage.png)
