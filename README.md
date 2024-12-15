@@ -11,6 +11,18 @@
 
 ## Part 1: Build Game with basic game loop and basic game object
 
+- [Step 1](#step1-initial-the-pygame): Initialize PyGame
+- [Step 2](#step2-load-background-and-additional-objects): Load Background and Additional Objects
+- [Step 3](#step3-make-the-player-moving-with-awsd-key-press): Make the Player Move with AWSD Key Press
+- [Step 4](#step4-let-the-airplane-fire-bullets): Let the Airplane Fire Bullets
+- [Step 5](#step5-add-enemies): Add Enemies
+- [Step 6](#step6-check-for-collisions): Check for Collisions
+- [Step 7](#step7-add-explosion-animation): Add Explosion Animation
+- [Step 8](#step8-load-sound-and-play-music): Load Sound and Play Music
+- [Step 9](#step9-draw-text-for-score-life-and-game-over): Draw Text for Score, Life, and Game Over
+
+
+
 ### Step1 Initial the PYGame
 
 - Create a project folder, and add a images folder in the project folder
