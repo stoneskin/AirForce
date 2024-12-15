@@ -530,7 +530,6 @@ You can adjust the explosion animation speed by changing the frame_rate value in
   </video>
 </div>
 
-
 ## 5 Conclusion
 
 I had used 4 rounds to build a shooting game use my material.
