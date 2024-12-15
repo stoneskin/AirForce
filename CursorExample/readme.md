@@ -1,4 +1,4 @@
-# Example of Using Cursor AI to build a Shotting game
+## Part3: Example of Using Cursor AI to build a Shotting game
 
 Below is the example of using [Cursor AI](https://www.cursor.com/) to build a shotting game with giving images and sounds.
 
