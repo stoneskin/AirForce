@@ -36,9 +36,9 @@ Make sure to:
 
 ## 1. Round 1
 
-**[Me]please use image in the folder to create a python shotting game**
+**[Me]** *please use image in the folder to create a python shotting game*
 
-**[Cursor]** I'll help you create a simple shooting game in Python using Pygame. Since I don't have access to the actual images in your folder, I'll provide a template that you can modify with your own images. Here's a basic shooting game structure:
+**[Cursor]** *I'll help you create a simple shooting game in Python using Pygame. Since I don't have access to the actual images in your folder, I'll provide a template that you can modify with your own images. Here's a basic shooting game structure:*
 
 [source code #1](./mygame1.py)
 ```python
@@ -182,16 +182,17 @@ while running:
 pygame.quit()
 ```
 
-To use this code with your own images:
-1.Replace the placeholder surfaces with your actual images using:
+**To use this code with your own images:**
+
+1. Replace the placeholder surfaces with your actual images using:
 
 ```python
     self.image = pygame.image.load('your_image.png').convert()
 self.image.set_colorkey(BLACK)  # If you want transparency
 ```
 
-2.Place your images in the same directory as the script or provide the correct path.
-3.You might need to adjust the size and speed parameters based on your images.
+2. Place your images in the same directory as the script or provide the correct path.
+3. You might need to adjust the size and speed parameters based on your images.
 
 **This game includes:**
 
@@ -231,9 +232,9 @@ Then use these images in your sprite classes instead of the placeholder surfaces
 
 ## 2. Round 2
 
-**[Me]I have images player.png, bullet.png, enemy1.png and sky.jpg for backgroud,  could you update the code to use them**  
+**[Me]** *I have images player.png, bullet.png, enemy1.png and sky.jpg for backgroud,  could you update the code to use them*
 
-**[Cursor]** I'll modify the code to use your specific images. Here's the updated version:
+**[Cursor]** *I'll modify the code to use your specific images. Here's the updated version:*
 
 [source code #2](./mygame2.py)
 ```python
@@ -404,13 +405,14 @@ pygame.quit()
 ```
 
 **Key changes made:**
-1.Added loading of specific image files ('player.png', 'bullet.png', 'enemy1.png', 'sky.jpg')
-2.Added background image with proper scaling
-3.Added score display
-4.Added game over screen
-5.Added image scaling (you may need to adjust the sizes based on your actual images)
-6.Added alpha channel support for transparent images
-7.Added a 3-second delay after game over before closing
+
+1. Added loading of specific image files ('player.png', 'bullet.png', 'enemy1.png', 'sky.jpg')
+2. Added background image with proper scaling
+3. Added score display
+4. Added game over screen
+5. Added image scaling (you may need to adjust the sizes based on your actual images)
+6. Added alpha channel support for transparent images
+7. Added a 3-second delay after game over before closing
 
 Make sure all image files are in the same directory as your Python script. You might need to adjust the image scaling values based on your actual image sizes:
 
@@ -451,20 +453,21 @@ enemy_img = pygame.transform.scale(enemy_img, (40, 40))    # Adjust size as need
 
 ## 3. Round 3
 
-**[Me]** change the  game  to horizontal, the player in the left, and enmy come from right end,  also add pew.wav as sound of shooting and expl.wav as sound of explosion
+**[Me]** *change the  game  to horizontal, the player in the left, and enmy come from right end,  also add pew.wav as sound of shooting and expl.wav as sound of explosion*
 
-**[Cursor]** I'll modify the game to be horizontal with enemies coming from the right and add sound effects. Here's the updated code:
+**[Cursor]** *I'll modify the game to be horizontal with enemies coming from the right and add sound effects. Here's the updated code:*
 
 [source code #3](./mygame3.py)
 
 **Key changes made:**
-1.Changed player position to left side of screen
-2.Modified player movement to up/down instead of left/right
-3.Rotated player, bullet, and enemy sprites 90 degrees
-4.Changed bullet direction to move right
-5.Changed enemies to spawn from right side and move left
-6.Added sound effects for shooting and explosions
-7.Modified collision detection for horizontal gameplay
+
+1. Changed player position to left side of screen
+2. Modified player movement to up/down instead of left/right
+3. Rotated player, bullet, and enemy sprites 90 degrees
+4. Changed bullet direction to move right
+5. Changed enemies to spawn from right side and move left
+6. Added sound effects for shooting and explosions
+7. Modified collision detection for horizontal gameplay
 
 **Controls:**
 - Up/Down arrow keys to move
@@ -492,19 +495,20 @@ Make sure you have the sound files ('pew.wav' and 'expl.wav') in the same direct
 
 ## 4. Round 4
 
-**[Me]add the animation of explotion, the explotion images are Explosion00.png to Explosion08.png.  also remove the rotation of current images for player,bullet and enemy**
+**[Me]** *add the animation of explotion, the explotion images are Explosion00.png to Explosion08.png.  also remove the rotation of current images for player,bullet and enemy*
 
-**[Cursor]** I'll modify the code to add explosion animation and remove the rotations. Here's the updated version:
+**[Cursor]** *I'll modify the code to add explosion animation and remove the rotations. Here's the updated version:*
 
 [source code #4](./mygame4.py)
 
 **Key changes made:**
-1.Added Explosion class for handling explosion animations
-2.Removed rotations from player, bullet, and enemy sprites
-3.Added explosion animation when enemies are hit
-4.Created new sprite group for explosions
-5.Added loading of explosion animation frames
-6.Adjusted bullet size to be more horizontal
+
+1. Added Explosion class for handling explosion animations
+2. Removed rotations from player, bullet, and enemy sprites
+3. Added explosion animation when enemies are hit
+4. Created new sprite group for explosions
+5. Added loading of explosion animation frames
+6. Adjusted bullet size to be more horizontal
 
 The explosion animation will now play whenever an enemy is hit by a bullet. Make sure all the explosion image files (Explosion00.png through Explosion08.png) are in the same directory as your Python script.
 You can adjust the explosion animation speed by changing the frame_rate value in the Explosion class. Lower values will make the animation faster, higher values will make it slower.
