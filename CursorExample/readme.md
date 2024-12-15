@@ -1,10 +1,10 @@
-# Example of Cursor AI build a Shotting game use my images
+# Example of Using Cursor AI to build a Shotting game
 
-Below is the example of use [Cursor AI](https://www.cursor.com/) to build a shotting game use my images.
+Below is the example of using [Cursor AI](https://www.cursor.com/) to build a shotting game with giving images and sounds.
 
 In my project folder, I add a `.cursorrules` file to describe the coding style of Cursor AI.
 
-```
+```txt
 You are an expert of Python programming.
 
 Key Principles:
@@ -470,6 +470,7 @@ enemy_img = pygame.transform.scale(enemy_img, (40, 40))    # Adjust size as need
 7. Modified collision detection for horizontal gameplay
 
 **Controls:**
+
 - Up/Down arrow keys to move
 - Spacebar to shoot
 - Close window to quit
@@ -477,6 +478,7 @@ enemy_img = pygame.transform.scale(enemy_img, (40, 40))    # Adjust size as need
 Make sure you have the sound files ('pew.wav' and 'expl.wav') in the same directory as your Python script. 
 
 **The game now features:**
+
 - Horizontal scrolling gameplay
 - Sound effects for shooting and explosions
 - Proper sprite rotations for horizontal gameplay
