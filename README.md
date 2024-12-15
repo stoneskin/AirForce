@@ -3,8 +3,9 @@
  This is a simple python game write with pyGame. For educational purpose, I used 3 different way to build the game.
 
  - [Part 1](t](https://stoneskin.github.io/AirForce/#part-1-build-game-with-basic-game-loop-and-basic-game-object)), Implements with the basic game loop and basic game object.
- - [Part 2](.Part2_OOO.md), Rewrote the code with Object-Oriented Programming (OOP) style.
- - [Part 3](./CursorExample/readme.md), Use prompts to let the [Cursor AI](https://www.cursor.com/) to build the AirForce game.
+ - [Part 2](https://stoneskin.github.io/AirForce/Part2_OOO.html#part2-rewrite-the-game-with-oop), Rewrote the code with Object-Oriented Programming (OOP) style.
+ - [Part 3](https://stoneskin.github.io/AirForce/CursorExample/#part3-example-of-using-cursor-ai-to-build-a-shotting-game), Use prompts to let the [Cursor AI](https://www.cursor.com/) to build the AirForce game.
+
 
 
 
