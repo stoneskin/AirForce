@@ -252,12 +252,13 @@ player_pos=[130,100]
     #initial bullets
     bullets=[]
     bullet = pygame.image.load("images/bullet.png")
+
     ```
 
 - Draw the bullet in screen
   
-  ```python
-  #4 - Draw bullet
+    ```python
+    #4 - Draw bullet
     index=0 
     for bulletPos in bullets:
 
@@ -269,15 +270,15 @@ player_pos=[130,100]
             bullets.pop(index)  #remove from list
         index+=1  
   
- ```
+   ```
 
 - Mouse Click or space key down to fire
 
-```python
+    ```python
     # use mouse click or space to fire         
     if event.type==pygame.MOUSEBUTTONDOWN or (event.type==pygame.KEYDOWN and event.key==pygame.K_SPACE):
         bullets.append([player_pos[0],player_pos[1]]) 
-```
+    ```
 
 ![step4](./screenshots/step4.png)
 
