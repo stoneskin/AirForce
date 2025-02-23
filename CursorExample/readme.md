@@ -11,6 +11,7 @@
 Below is the example of using [Cursor AI](https://www.cursor.com/) to build a shotting game with giving images and sounds.
 
 In my project folder, I add a `.cursorrules` file to describe the coding style of Cursor AI.
+(VsCode also have copilot free using now,  to set similar instruction for copilot, you can add some rules in  `.github/copilot-instructions.md` )
 
 ```txt
 You are an expert of Python programming.

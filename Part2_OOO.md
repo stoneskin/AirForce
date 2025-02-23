@@ -187,7 +187,7 @@
             self.img = pygame.transform.scale(Enemy.enemyImg, (75, 75)).convert_alpha()
             self.rect=pygame.Rect(self.img.get_rect())
         def update(self,screen):
-        self.move()
+            self.move()
         screen.blit(self.img, self.pos)
         def move(self):
             self.pos[0]+=self.speed
